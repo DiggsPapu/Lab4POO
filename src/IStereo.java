@@ -12,8 +12,8 @@ public void setConnectPhone(boolean set);
 public boolean getInCall();
 public void setInCall(boolean set);
 public boolean getFMAM();
-public boolean setFMAM(boolean station);
+public void setFMAM(boolean station);
 public int getActualStation();
 public void setActualStation(int station);
-public void saveStation(int station);
+public void saveStation(int pos, int station);
 } 
