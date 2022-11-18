@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2022-11-17T23:59:57.684Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 OPR/92.0.0.0" etag="lHrjoDrHllz5Ih8RBKGb" version="20.5.3" type="github"><diagram id="kRqsOCaYbicmYBVgTPLm" name="Page-1">zVZNj5swEP01SO0hUjBbmh5Dsun2kKraVNpeHRjAksHUmRDSX98xmK+grFpplewleJ7n4/kFPON4q6z6qnmRblUE0mHzqHK8tcOYO/cX9DDIuUEePrEGSLSIrFMP7MQfaCMtehQRHEaOqJREUYzBUOU5hDjCuNbqNHaLlRxXLXgCE2AXcjlFX0SEaYMu2OcefwKRpG1l1//S7GS8dbYnOaQ8UqcB5D063korhc0qq1YgjXitLk3c5spuR0xDjv8S8KNKX7xEJovn0v9Z7H7l4XY/s1lKLo/2wA7zJeULCkMZz1YH//fR8AwyrhORO95yXlSdOUNVEPRQQwgVzrgUifEKiRtoQvsMtErss64jBgDPKE8gp9Y3kybmIXTwOGSUkSQQl1X2eoK0wDOPhBrE7i89CSsusVQbedq3tT2be/2Y/yOnhBg7PacpvxOh5Xsl57DAfLWA5ir48JE8ydyhFnnyGuU3Z3CwDDL6IeeGgaFTKvogbsmEtNhsl9taiz1dXcDzWytR1z8gR6HynsW91FiGeORy19CpZYml4nhrUcY0CKAgkeNdVDnwEoaC3JwA/QHR3Qhcu6LHhdmoJCtBo6A+vWxazbruQYFtPOumZqDIi14u03VjQd3QC2KVo50yXGbtDc+ENPPJE8gSTFZziWImjVNX2xSE6mrzdbuWTrMQqAxQn8nFBrRDgJ2CXN/ap36mYHOLpYN5wmtBbueYpEvdt3pa2G7fmv1UUe8NZjPv8S8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-18T00:04:21.915Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 OPR/92.0.0.0" etag="7va5IsE6BUTQB5MikTCt" version="20.5.3" type="github">
+  <diagram id="kRqsOCaYbicmYBVgTPLm" name="Page-1">
+    <mxGraphModel dx="385" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PxhW3glg8Rv6TpSXncMb-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Stereo_software&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;N/A&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getOnOff():boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setOnOff(onoff: boolean):void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getVol():int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ setVol(vol:int):void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getMode(): String&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+ setMode(mode:String):void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="160" width="200" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="4bHquClLG_6svhKLVLeR-1" value="RadioMode" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="400" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="4bHquClLG_6svhKLVLeR-2" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4bHquClLG_6svhKLVLeR-1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4bHquClLG_6svhKLVLeR-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="4bHquClLG_6svhKLVLeR-1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4bHquClLG_6svhKLVLeR-4" value="+ getFMAM():boolean&#xa;+ setFMAM(station:boolean):void&#xa;+ getActualStation():float&#xa;+ setActualStation(set:int):void&#xa;+ saveStation():void&#xa;+ loadStation():void&#xa;+ changeSong(set:int):void&#xa;+ listenSong(set:int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4bHquClLG_6svhKLVLeR-1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
