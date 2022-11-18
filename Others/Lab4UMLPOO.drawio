@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T02:04:58.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 OPR/92.0.0.0" etag="OC7vIi9U3F0jO-0-6UJr" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T02:05:07.434Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 OPR/92.0.0.0" etag="qi_nSLdlLXXM6Td3wUSx" version="20.5.3" type="github">
   <diagram id="kRqsOCaYbicmYBVgTPLm" name="Page-1">
     <mxGraphModel dx="1184" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -71,7 +71,7 @@
           <mxGeometry y="60" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4bHquClLG_6svhKLVLeR-45" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IRadioMode&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;N/A&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getFMAM():boolean&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+ setFMAM(station:boolean):void&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+ getActualStation():float&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+ setActualStation(set:int):void&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+ saveStation(station:void):void&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+ loadStation(station:void):void&lt;/p&gt;&lt;div style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-380" y="500" width="250" height="280" as="geometry" />
+          <mxGeometry x="-380" y="500" width="250" height="180" as="geometry" />
         </mxCell>
         <mxCell id="4bHquClLG_6svhKLVLeR-46" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IReproductionMode&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ changeSong(set:int):void&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+ listenSong():String&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="-70" y="510" width="280" height="180" as="geometry" />
