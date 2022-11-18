@@ -4,6 +4,9 @@ import java.util.ArrayList;
  * Vehicle
  */
 public class Vehicle implements IStereo{
+    /**
+     * The attributes
+     */
 private boolean onOff;
 private int vol;
 private String mode;
@@ -17,6 +20,9 @@ private ArrayList<String> contactList;
 private int actualPersonInCall;
 private boolean connectphone;
 private boolean inCall;
+/**
+ * The hereditary by interface methods
+ */
 @Override
 public boolean getOnOff() {
     // TODO Auto-generated method stub
