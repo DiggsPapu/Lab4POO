@@ -109,4 +109,16 @@ public void saveStation(int pos, int station) {
     // TODO Auto-generated method stub
     favStations.add(pos, station);
 }
+public ArrayList<String> getStations() {
+    return stations;
+}
+public ArrayList<String> getContactList() {
+    return contactList;
+}
+public ArrayList<Integer> getFavStations() {
+    return favStations;
+}
+public ArrayList<String> getReproductionList() {
+    return reproductionList;
+}
 }
