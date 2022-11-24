@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Reproduccion implements iReproduccion{
-    //ArrayList<Canciones> ListaReproduccion = new ArrayList<Canciones>();
+    ArrayList<Playlist> ListaReproduccion = new ArrayList<Playlist>();
 
     public Reproduccion(){
 

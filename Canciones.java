@@ -5,9 +5,9 @@ public class Canciones {
     String Autor; 
     ArrayList<String> Canciones = new ArrayList<String>();
 
-    public Canciones(){
-        Nombre = "";
-        Autor = "";
+    public Canciones(String pNombre, String pAutor){
+        Nombre = pNombre;
+        Autor = pAutor;
     }
 
     public String getNombre() {
