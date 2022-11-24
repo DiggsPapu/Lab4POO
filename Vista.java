@@ -23,6 +23,14 @@ public class Vista {
         return eleccion = scan.nextLine();
     }
 
+    public String Reproduccion(){
+        System.out.println("1) Seleccion lista de reproduccion");
+        System.out.println("2) Cambiar Cancion");
+        System.out.println("3) Escuchar cancion");
+
+        return eleccion = scan.next();
+    }
+
     public void Invalido(){
         System.out.println("Esta opcion es invalida");
     }

@@ -7,6 +7,8 @@ public class Controlador {
 
     public void principal(){
         boolean terminar = false;
+        Canciones newSong = new Canciones();
+        Reproduccion newList = new Reproduccion();
 
         do {
 
@@ -22,6 +24,16 @@ public class Controlador {
                     break;
 
                 case "3":
+                    String eleccion = vista.Reproduccion();
+                    if(eleccion.equals("1")){
+                        
+                    }
+                    else if(eleccion.equals("2")){
+
+                    }
+                    else if(eleccion.equals("3")){
+
+                    }
                     
                     break;
 
