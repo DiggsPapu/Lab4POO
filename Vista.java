@@ -5,7 +5,6 @@ public class Vista {
     public String eleccion;
     public int eleccion2;
     public double eleccion3;
-    private boolean terminar = false;
     int posicionCancion = 0;
 
     public Vista(){
