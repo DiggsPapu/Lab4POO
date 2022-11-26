@@ -3,11 +3,12 @@ import java.util.*;
 public class Canciones {
     String Nombre; 
     String Autor; 
-    ArrayList<String> Canciones = new ArrayList<String>();
+    String Genero;
 
-    public Canciones(String pNombre, String pAutor){
+    public Canciones(String pNombre, String pAutor, String pGenero){
         Nombre = pNombre;
         Autor = pAutor;
+        Genero = pGenero;
     }
 
     public String getNombre() {
@@ -26,11 +27,12 @@ public class Canciones {
         Autor = autor;
     }
 
-    public ArrayList<String> getCanciones() {
-        return Canciones;
+    public String getGenero() {
+        return Genero;
     }
 
-    public void setCanciones(ArrayList<String> canciones) {
-        Canciones = canciones;
+    public void setGenero(String genero) {
+        Genero = genero;
     }
+    
 }
